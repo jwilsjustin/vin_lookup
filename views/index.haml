@@ -1,3 +1,8 @@
-%h1 Content
-%p Hello this is Content
-= haml :stuff
+.container
+  %header
+    %h1 Lookup a VIN
+  #fetch
+    %input#vin{:placeholder => "Enter a VIN", :type => "text"}/
+    %button#search Find this car
+  #vehicle
+  #vehicleImage

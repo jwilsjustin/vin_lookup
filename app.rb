@@ -11,6 +11,6 @@ get '/?' do
   haml :index, :layout => :main_layout
 end
 
-get '/admin/?' do
-  haml :"admin/admin", :layout => :main_layout
+get '/ex/?' do
+  haml :ex, :layout => :main_layout
 end
