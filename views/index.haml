@@ -1,8 +1,14 @@
 .container
-  %header
-    %h1 Lookup a VIN
-  #fetch
-    %input#vin{:placeholder => "Enter a VIN", :type => "text"}/
-    %button#search Find this car
-  #vehicle
-  #vehicleImage
+  .ten.columns.offset-by-three.clearfix
+    %header
+      %h1 Lookup a VIN
+.container      
+  .ten.columns.offset-by-three.clearfix
+    .row#fetch.clearfix
+      %input#vin{:placeholder => "Enter a VIN", :type => "text"}
+      %button#search.light-noise-040 Find this car
+    .row
+      .six.columns.alpha   
+        #vehicle
+      .four.columns.omega
+        #vehicleImage

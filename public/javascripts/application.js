@@ -59,7 +59,7 @@ $(document).ready(function () {
           $.getJSON( baseURI + requestTypePhoto + 'styleId=' + vehicleStyleID + "&fmt=json&api_key=" + apiKey + "&callback=?", function (json) {
             console.log(json);
             if (json != "Nothing found.") {
-              $('#vehicleImage').append('<img src="http://media.ed.edmunds-media.com/' + json[2]['photoSrcs'][0] + '"/>');
+              $('#vehicleImage').append('<img src="http://media.ed.edmunds-media.com/' + json[2]['photoSrcs'][0] + '" class="scale-with-grid"/>');
             } else {
               $('#vehicleImage').html('<h2 class="loading">Image Not Found</h2>');
             }
