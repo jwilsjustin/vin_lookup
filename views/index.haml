@@ -1,14 +1,17 @@
+.top-bar
+  .container
+    .ten.columns.offset-by-three.clearfix
+      %header
+        %h1 Lookup a VIN
+      .row#fetch.clearfix
+        %input#vin{:placeholder => "Enter a VIN", :type => "text"}
+        %button#search.light-noise-040 Find this car
 .container
-  .ten.columns.offset-by-three.clearfix
-    %header
-      %h1 Lookup a VIN
-.container      
-  .ten.columns.offset-by-three.clearfix
-    .row#fetch.clearfix
-      %input#vin{:placeholder => "Enter a VIN", :type => "text"}
-      %button#search.light-noise-040 Find this car
+  .ten.columns.offset-by-three.clearfix    
     .row
-      .six.columns.alpha   
+      .six.columns.alpha
         #vehicle
+          #vin-illustration
+            &middot; XXXXX12343X123456 &middot;
       .four.columns.omega
         #vehicleImage

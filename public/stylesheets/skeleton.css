@@ -152,7 +152,7 @@
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .one-third.column,
-        .container .two-thirds.column  { width: 97%; }
+        .container .two-thirds.column  { width: 95%; }
 
         /* Offsets */
         .container .offset-by-one,
@@ -169,7 +169,7 @@
         .container .offset-by-twelve,
         .container .offset-by-thirteen,
         .container .offset-by-fourteen,
-        .container .offset-by-fifteen { padding-left: 10px; }
+        .container .offset-by-fifteen { padding-left: 15px; }
 
     }
 

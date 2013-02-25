@@ -32,12 +32,15 @@
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
 		input#vin{
-			width: 275px;
+			width: 268px;
 			margin: 0;
 		}
 		button#search{
-			width: 297px;
-			margin: 7px 0;
+			width: 290px;
+			margin: 7px 0 15px;
+		}
+		.attribution, .attribution img {
+  		right: 10px;
 		}
 	}
 

@@ -34,7 +34,6 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body {
-		padding-top: 10px;
 		line-height: 1; }
 	ol, ul {
 		list-style: none; }

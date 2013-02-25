@@ -20,7 +20,7 @@ $(document).ready(function () {
     var vehicleStyleID    = 'x'
 
     if (vin == '') {
-      $('#vehicle').html("<h2 class='loading'>Enter a VIN please</h2>");
+      $('#vehicle').html("<h4 class='loading'>Enter a VIN please</h4>");
     } else {
 
       // LOADING STATE
@@ -33,10 +33,10 @@ $(document).ready(function () {
       $.getJSON( baseURI + requestTypeVIN + 'vin=' + vin + "&fmt=json&api_key=" + apiKey + "&callback=?", function (json) {
         console.log(json);
         if (json['styleHolder'] == undefined) {
-          $('#vehicle').html('<h3>Nothing found.<br />Check to see if the VIN is right.</h3>');
+          $('#vehicle').html('<h4>Nothing found.<br />Check to see if the VIN is right.</h4>');
         }
         else if (json['styleHolder'].length == 0) {
-          $('#vehicle').html('<h3>Couldn\'t find that car. It might be old.</h3>');
+          $('#vehicle').html('<h4>Couldn\'t find that car. It might be old.</h4>');
         }
         else if (json['styleHolder'].length > 0) {
           $('#vehicle').html('<h2 class="loading">Found:</h2><hr/><p>' 
