@@ -1,5 +1,5 @@
 require './app'
 
 map "/" do
-  run VinDecoder
+  run VinLookup
 end

@@ -1,7 +1,7 @@
 require 'bundler'
 Bundler.require
 
-class VinDecoder < Sinatra::Base
+class VinLookup < Sinatra::Base
   set :root, File.dirname(__FILE__)
   register Sinatra::AssetPack
 
