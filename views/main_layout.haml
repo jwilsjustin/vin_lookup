@@ -4,15 +4,12 @@
   %head
     %title VIN Lookup
     %meta{:content => "width=device-width, initial-scale=1, maximum-scale=1", :name => "viewport"}/
-    
     = css :app
-    
     /[if lt IE 9]
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-
-    %script{ :type => "text/javascript", :src => "//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"}
-    %script{ :type => "text/javascript", :src => "/javascripts/application.js"}
 
   %body
     = yield
     = haml :attribution
+    %script{ :type => "text/javascript", :src => "//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"}
+    %script{ :type => "text/javascript", :src => "/javascripts/application.js"}
