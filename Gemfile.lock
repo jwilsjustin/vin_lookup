@@ -4,6 +4,7 @@ GEM
     haml (4.0.0)
       tilt
     jsmin (1.0.1)
+    newrelic_rpm (3.4.0)
     rack (1.5.2)
     rack-protection (1.3.2)
       rack
@@ -25,5 +26,6 @@ PLATFORMS
 
 DEPENDENCIES
   haml
+  newrelic_rpm
   sinatra
   sinatra-assetpack
