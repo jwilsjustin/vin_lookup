@@ -1,3 +1,9 @@
+.notice {
+  border: 1px solid #ddd;
+  padding: 4px 4px 0;
+  border-radius: 3px;
+  background: #fdfce0;
+}
 #fetch {
   margin-bottom: 0;
 }
