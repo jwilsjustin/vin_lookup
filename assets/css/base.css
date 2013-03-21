@@ -66,12 +66,13 @@
 		font-family: "Georgia", "Times New Roman", serif;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px; }
 	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
 	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
-	h5 { font-size: 17px; line-height: 24px; }
+	h5 { font-size: 17px; line-height: 24px; color: #32a5b0; }
 	h6 { font-size: 14px; line-height: 21px; }
+	h6.color { color: #72ced6; }
 	.subheader { color: #777; }
 
 	p { margin: 0 0 20px 0; }
@@ -89,7 +90,7 @@
 	blockquote cite:before { content: "\2014 \0020"; }
 	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
 
-	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 20px; height: 0; }
 
 
 /* #Links

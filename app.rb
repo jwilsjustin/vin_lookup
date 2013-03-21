@@ -32,8 +32,4 @@ class VinLookup < Sinatra::Base
     haml :index, :layout => :main_layout
   end
 
-  get '/ex/?' do
-    haml :ex, :layout => :main_layout
-  end
-
 end
